@@ -5,9 +5,6 @@
 #define DHTPIN 21      // Digital pin connected to the DHT sensor
 #define DHTTYPE DHT11   // DHT 11
 
-//#define LEDPIN 11
-const int ledPin = 11;
-
 DHT dht(DHTPIN, DHTTYPE);
 
 // Teensy 5V <--> HC-05 Vcc
